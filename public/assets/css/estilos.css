@@ -1,0 +1,94 @@
+html, body {
+    font-family: 'Nunito Sans', sans-serif;
+    margin: 0;
+    height: 100%;
+    font-size: 14px;
+    color: #2d3135;
+    background-size: 100% 200%;
+    background-position: 0px 0px;
+    background-image: linear-gradient(117deg, #fcebf2 0%, rgb(238, 242, 250) 49%, rgb(219, 228, 250) 100%);
+}
+
+button{
+    border: none;
+    cursor: pointer;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+.pagina {
+    width: 1000px;
+
+}
+
+.fucsia{
+    color: #d14887!important;
+}
+.azul{
+    color: #2a4a96!important;
+}
+
+.bg-fucsia{
+    background-color: #d14887!important;
+    color: white;    
+}
+
+.bg-azul{
+    background-color: #2a4a96!important;
+    color: white;    
+}
+
+.bg-fucsia-hover:hover{
+    background-color: #d14887!important;
+}
+
+.fucsia-hover:hover{
+    color: #d14887!important;
+}
+
+.bg-azul-hover:hover{
+    background-color: #2a4a96!important;
+}
+
+.borda-fucsia, .borda-fucsia-hover:hover{
+    border-color: #d14887!important;
+}
+
+.borda-azul,.borda-azul-hover:hover{
+    border-color: #2a4a96!important;
+}
+.input-login .p-password{
+	width: 100%;
+}
+
+.area-login{
+	height: 100vh;
+	width: 90%;
+}
+
+.filtro-azul, .filtro-img-azul img {
+    filter: brightness(0) saturate(100%) invert(25%) sepia(12%) saturate(7336%) hue-rotate(202deg) brightness(92%) contrast(90%);
+}
+.filtro-fucsia, .filtro-img-fucsia img {
+    filter: brightness(0) saturate(100%) invert(42%) sepia(58%) saturate(1723%) hue-rotate(305deg) brightness(86%) contrast(89%);
+}
+
+.filtro-cinza, .filtro-img-cinza img {
+    filter: brightness(0) saturate(100%) invert(25%) sepia(14%) saturate(0%) hue-rotate(203deg) brightness(96%) contrast(78%);
+}
+
+
+.filtro-white, .filtro-img-white img {
+    filter: brightness(0) saturate(100%) invert(100%) sepia(100%) saturate(0%) hue-rotate(127deg) brightness(101%) contrast(105%);
+}
+
+
+
